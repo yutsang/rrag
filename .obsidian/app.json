@@ -1,0 +1,21 @@
+{
+  "promptDelete": false,
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "^raw/",
+    "^raw_converted/",
+    "^chroma_db/",
+    "^scripts/",
+    "^workflows/",
+    "^\\.claude/",
+    "^\\.obsidian/",
+    "^memory/",
+    "^CLAUDE\\.md$",
+    "^README\\.md$",
+    "\\.pdf$",
+    "\\.sas$",
+    "\\.dat$",
+    "\\.csv$"
+  ],
+  "alwaysUpdateLinks": true
+}

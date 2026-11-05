@@ -1,0 +1,48 @@
+/* Course code tags — distinct teal/cyan color */
+/* EEMT courses */
+a.tag[href="#EEMT5360"],
+a.tag[href="#EEMT5500"],
+a.tag[href="#EEMT5510"],
+a.tag[href="#EEMT5520"],
+a.tag[href="#EEMT5540"],
+a.tag[href="#EEMT5560"],
+a.tag[href="#EEMT6000H"],
+/* MSBD courses */
+a.tag[href="#MSBD5006"],
+/* SBMT courses */
+a.tag[href="#SBMT5010"],
+a.tag[href="#SBMT5030"] {
+  background-color: rgba(0, 188, 212, 0.15);
+  color: #00acc1;
+  border: 1px solid rgba(0, 188, 212, 0.3);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+/* Dark mode override */
+.theme-dark a.tag[href="#EEMT5360"],
+.theme-dark a.tag[href="#EEMT5500"],
+.theme-dark a.tag[href="#EEMT5510"],
+.theme-dark a.tag[href="#EEMT5520"],
+.theme-dark a.tag[href="#EEMT5540"],
+.theme-dark a.tag[href="#EEMT5560"],
+.theme-dark a.tag[href="#EEMT6000H"],
+.theme-dark a.tag[href="#MSBD5006"],
+.theme-dark a.tag[href="#SBMT5010"],
+.theme-dark a.tag[href="#SBMT5030"] {
+  background-color: rgba(0, 188, 212, 0.2);
+  color: #4dd0e1;
+  border-color: rgba(0, 188, 212, 0.4);
+}
+
+/* "course" tag — subtle gray badge */
+a.tag[href="#course"] {
+  background-color: rgba(158, 158, 158, 0.15);
+  color: #9e9e9e;
+  border: 1px solid rgba(158, 158, 158, 0.3);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.85em;
+}

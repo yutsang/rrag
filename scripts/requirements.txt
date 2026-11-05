@@ -1,0 +1,15 @@
+# Local RAG pipeline dependencies
+# Install: pip install -r scripts/requirements.txt
+
+# Document conversion (PDF/PPTX/DOCX/XLSX/HTML → markdown)
+markitdown[all]>=0.0.1a3
+
+# Google Gemini SDK (embeddings + chat)
+google-genai>=0.3.0
+
+# Local vector database (persistent, no server)
+chromadb>=0.5.0
+
+# Config + frontmatter parsing
+python-dotenv>=1.0.0
+pyyaml>=6.0
